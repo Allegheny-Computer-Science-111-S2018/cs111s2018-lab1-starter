@@ -18,13 +18,13 @@
 
 01 section
 
-4 add cards
+4 add cards:
 
-Frank Chen
+chenc Chih-Jung Chen
 
-Donte Wallette
+walletted Donte Wallette
 
-Flaherty
+flahertyc Cullen Flaherty
 
 Nick Kempa - will drop 11am
 
@@ -36,9 +36,9 @@ Caitlyn - Cate
 
 Nicholas Kempa - not here
 
-Vicquaja - not here
+Vicquaja - came late?
 
-Heshmat - not here
+Heshmat - not here, came and talked to me
 
 
 
