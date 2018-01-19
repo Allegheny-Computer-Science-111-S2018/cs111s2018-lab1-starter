@@ -1,0 +1,8 @@
+gradle clean: clean the project of all the derived files
+gradle check: check the quality of the code using Checkstyle
+gradle build: create the bytecode from the Java source code
+gradle run: run the Java program in the command-line
+gradle tasks: display details about the Gradle system
+
+./gatorgrader.sh --start
+./gatorgrader.sh --check

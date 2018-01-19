@@ -1,0 +1,17 @@
+\frametitle{Escape Sequences}
+\begin{tabular}{|c|c|c|}
+\hline
+Seq &	Meaning	&	    Example Code \\
+\hline
+\textbackslash n	& New line		&    System.out.println("Hi\textbackslash nThere"); \\
+
+\textbackslash t	&Horizontal tab	& System.out.println("What's\textbackslash tup?"); \\
+
+\textbackslash b &	Backspace	  &  System.out.println("Hi\textbackslash b Hey"); \\
+
+\textbackslash\textbackslash &	Backslash	 &   System.out.println("Back\textbackslash\textbackslash Slash"); \\
+
+\textbackslash "	 &Double quote	&    System.out.println("Dbl\textbackslash "Quote"); \\
+\hline
+\end{tabular}
+
