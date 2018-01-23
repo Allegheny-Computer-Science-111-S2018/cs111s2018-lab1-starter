@@ -49,7 +49,7 @@ script:
   # GatorGrader
   - ./gatorgrader.sh --check
   # Markdown
-  #- mdl README.md
-  #- mdl writing/reflection.md
-  #- proselint README.md
-  #- proselint writing/reflection.md
+  - mdl README.md
+  - mdl writing/reflection.md
+  - proselint README.md
+  - proselint writing/reflection.md

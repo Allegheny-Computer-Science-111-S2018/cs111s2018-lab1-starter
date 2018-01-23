@@ -124,21 +124,21 @@ if [ "$CHECK" = true ]; then
   printf "%s\n" "${blu}...Finished running the Gradle checks${end}"
 
   # run all of the writing checks with mdl and proselint
-  #echo ""
-  #printf "%s\n" "${red}Checking the writing with mdl and proselint!${end}"
-  #echo ""
-  #printf "%s\n" "${blu}Starting to run the mdl and proselint checks...${end}"
-  #echo ""
-  #mdl README.md
-  #determine_exit_code $? "mdl README.md"
-  #mdl writing/reflection.md
-  #determine_exit_code $? "mdl reflection.md"
-  #proselint README.md
-  #determine_exit_code $? "proselint README.md"
-  #proselint writing/reflection.md
-  #determine_exit_code $? "proselint reflection.md"
-  #echo ""
-  #printf "%s\n" "${blu}...Finished checking the writing with mdl and proselint${end}"
+  echo ""
+  printf "%s\n" "${red}Checking the writing with mdl and proselint!${end}"
+  echo ""
+  printf "%s\n" "${blu}Starting to run the mdl and proselint checks...${end}"
+  echo ""
+  mdl README.md
+  determine_exit_code $? "mdl README.md"
+  mdl writing/reflection.md
+  determine_exit_code $? "mdl reflection.md"
+  proselint README.md
+  determine_exit_code $? "proselint README.md"
+  proselint writing/reflection.md
+  determine_exit_code $? "proselint reflection.md"
+  echo ""
+  printf "%s\n" "${blu}...Finished checking the writing with mdl and proselint${end}"
 
   # run all of the checks with GatorGrader
   echo ""
