@@ -70,7 +70,8 @@ NOTE: Had to do a release for two files due to bug fixes. Not standard.
 
 -->
 
-Available for download at the course website (http://www.cs.allegheny.edu/sites/jjumadinova/teaching/111/labs.html),
+Available for download at the course website [course
+website](http://www.cs.allegheny.edu/sites/jjumadinova/teaching/111/labs.html),
 the carefully formatted assignment sheet for this project provides more details
 about the steps that a computer scientist should take to complete this
 assignment.
