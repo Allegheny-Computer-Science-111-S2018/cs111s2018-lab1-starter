@@ -13,6 +13,15 @@ PROFESSOR TASK LIST:
   * Check to ensure that your GitHub repository is created correctly
   * Share the assignment link with all of the students using email or Slack
 
+PROFESSOR CREATION OF GIT SUBMODULE FOR GATORGRADER:
+
+  * If the submodule is not visible or not working, you can run:
+  * "git submodule add https://github.com/gkapfham/gatorgrader.git gatorgrader"
+
+  * If you want to ensure that the submodule is working in a starter,
+  * then you can "rm -rf .gitmodules" and "rm -rf gatorgrader" first.
+  * Now, you can run the above "git submodule" command above.
+
 PROFESSOR PROBLEMS?
 
   * Contact Gregory M. Kapfhammer by email or Slack
