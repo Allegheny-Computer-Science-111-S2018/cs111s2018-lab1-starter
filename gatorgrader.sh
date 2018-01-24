@@ -152,8 +152,10 @@ if [ "$CHECK" = true ]; then
   echo ""
   # update pip and then install the requirements
   # NOTE: run with python3 -m due to long directory names and Linux kernel limitation
+  # NOTE: use the "punkt" library in NLTK to do text analysis (e.g., sentences)
   python3 -m pip install -U pip
   python3 -m pip install -r requirements.txt
+  python3 -m nltk.downloader punkt
   cd ../||exit
   echo ""
   printf "%s\n" "${blu}... Finished configuring the GatorGrader environment${end}"
