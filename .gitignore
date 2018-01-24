@@ -1,14 +1,21 @@
+<<<<<<< HEAD
 # Mac
 *.DS_Store
 
 # Dropbox
 *.dropbox/attr
 
+=======
+>>>>>>> 6eb5a772f2434e58066f20ac0cceef0f753cda06
 # Compiled source #
 ###################
 *.class
 *.o
 *.so
+<<<<<<< HEAD
+=======
+*.DS_Store
+>>>>>>> 6eb5a772f2434e58066f20ac0cceef0f753cda06
 
 # Android #
 ############
@@ -40,9 +47,17 @@ local.properties
 *.log
 *.lot
 *.out
+<<<<<<< HEAD
 *.ps
 *.tex~
 *.toc
+=======
+*.pdf
+*.ps
+*.tex~
+*.toc
+*_minted*
+>>>>>>> 6eb5a772f2434e58066f20ac0cceef0f753cda06
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 ######################
@@ -58,6 +73,10 @@ local.properties
 *.fdb_latexmk
 *.synctex.gz
 *.pdfsync
+<<<<<<< HEAD
+=======
+*.synctex.gz(busy)
+>>>>>>> 6eb5a772f2434e58066f20ac0cceef0f753cda06
 
 # algorithms
 ######################
@@ -122,24 +141,126 @@ local.properties
 
 # Vim #
 ######################
+<<<<<<< HEAD
 *.swp
 *.swo
 *.project.vim
+=======
+*.project.vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+>>>>>>> 6eb5a772f2434e58066f20ac0cceef0f753cda06
 
 # Java #
 ######################
 *.ear
 *.jar
 *.war
+<<<<<<< HEAD
+=======
+*.ant_targets
+
+# Gradle #
+######################
+.gradle
+gradle
+/build
+/buildSrc/build
+/subprojects/*/build
+/subprojects/docs/src/samples/*/*/build
+/subprojects/internal-android-performance-testing/build-android-libs
+
+# Python #
+######################
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+*.mo
+*.pot
+*.log
+local_settings.py
+instance/
+.webassets-cache
+.scrapy
+docs/_build/
+target/
+.python-version
+celerybeat-schedule
+.env
+.venv/
+venv/
+ENV/
+bin/
+share/
+lib64
+pip-selfcheck.json
+pyvenv.cfg
+>>>>>>> 6eb5a772f2434e58066f20ac0cceef0f753cda06
 
 # R #
 ######################
 *-Ex.R
+<<<<<<< HEAD
 *.Rdata
 *.Rhistory
+=======
+*.RData
+*.Rdata
+*.Rhistory
+*.Rincr_history
+>>>>>>> 6eb5a772f2434e58066f20ac0cceef0f753cda06
 
 # CTags #
 ######################
 tags
+<<<<<<< HEAD
 
 *~
+=======
+.tags
+tags.lock
+tags.temp
+tags.tmp
+
+# Extra files #
+######################
+*.xmi
+*.sync
+*.jekyll-metadata
+>>>>>>> 6eb5a772f2434e58066f20ac0cceef0f753cda06

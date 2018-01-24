@@ -1,8 +1,0 @@
-* Java (9am-9:10am) slides
-
-
-* Strings (9:30am-9:50am)
-- Concatenation
-- Escape characters
-
-

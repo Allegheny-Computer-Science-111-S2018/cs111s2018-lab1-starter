@@ -1,3 +1,5 @@
+Jan 22
+
 * CS applications
 
 * Computer and Programming
@@ -7,3 +9,12 @@
 - atom
 - comments
 - "hello word" walk through
+
+Jan 24
+
+* Java (9am-9:10am) slides
+
+
+* Strings (9:30am-9:50am)
+- Concatenation
+- Escape characters
