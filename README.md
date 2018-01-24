@@ -64,12 +64,6 @@ The instructor will reduce a programmer's grade for this assignment if the red
 &#x2717; appears on the last commit in GitHub immediately before the
 assignment's due date.
 
-<!---
-
-NOTE: Had to do a release for two files due to bug fixes. Not standard.
-
--->
-
 Available for download at the course website [course
 website](http://www.cs.allegheny.edu/sites/jjumadinova/teaching/111/labs.html),
 the carefully formatted assignment sheet for this project provides more details
