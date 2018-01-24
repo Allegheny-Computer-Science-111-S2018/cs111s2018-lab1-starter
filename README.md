@@ -48,7 +48,7 @@ you faced and the solutions you developed. This is a Markdown file that must
 adhere to the standards described in the [Markdown Syntax
 Guide](https://guides.github.com/features/mastering-markdown/). Remember, you
 can preview the contents of a committed Markdown file by clicking on the name
-of the file in your GitHub repository. 
+of the file in your GitHub repository.
 
 The source code in the `DisplayOutput.java` file must also pass additional tests
 set by the [GatorGrader tool](https://github.com/gkapfham/gatorgrader). For
@@ -56,7 +56,7 @@ instance, GatorGrader will check to ensure that `DisplayOutput` produces exactly
 four lines of output and that you use the `new Date()` construct in the Java
 code. When you use the `git commit` command to transfer your source code to your
 GitHub repository, [Travis CI](https://travis-ci.com/) will initialize a build
-of your assignment, checking to see if it meets all of the requirements. If 
+of your assignment, checking to see if it meets all of the requirements. If
 your source code meet all of the established requirements, then you
 will see a green &#x2714; in the listing of commits in GitHub. If your
 submission does not meet the requirements, a red &#x2717; will appear instead.
@@ -73,7 +73,7 @@ NOTE: Had to do a release for two files due to bug fixes. Not standard.
 Available for download at the course website (http://www.cs.allegheny.edu/sites/jjumadinova/teaching/111/labs.html),
 the carefully formatted assignment sheet for this project provides more details
 about the steps that a computer scientist should take to complete this
-assignment. 
+assignment.
 
 ## Learning
 
@@ -170,7 +170,7 @@ the green "New Issue" button. If you have found a problem with the [GatorGrader
 tool](https://github.com/gkapfham/gatorgrader) and the way that it checks your
 assignment, then you can follow the aforementioned steps to create an issue in
 its repository. To ensure that your issue is properly resolved, please provide
-as many details as is possible about the problem that you experienced. 
+as many details as is possible about the problem that you experienced.
 
 Students who find, and use the appropriate GitHub issue tracker to correctly
 document, a mistake in any aspect of this laboratory assignment will receive
