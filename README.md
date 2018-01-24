@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# cs111s2018
-
-=======
 <!---
 
 PROFESSOR TASK LIST:
@@ -191,4 +187,3 @@ with either the course instructor or a teaching assistant during the laboratory
 session. Alternatively, you may ask questions in the Slack team for this
 course. Finally, you can schedule a meeting during the course instructor's
 office hours.
->>>>>>> 6eb5a772f2434e58066f20ac0cceef0f753cda06

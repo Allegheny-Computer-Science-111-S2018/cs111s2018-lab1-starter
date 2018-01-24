@@ -1,21 +1,9 @@
-<<<<<<< HEAD
-# Mac
-*.DS_Store
-
-# Dropbox
-*.dropbox/attr
-
-=======
->>>>>>> 6eb5a772f2434e58066f20ac0cceef0f753cda06
 # Compiled source #
 ###################
 *.class
 *.o
 *.so
-<<<<<<< HEAD
-=======
 *.DS_Store
->>>>>>> 6eb5a772f2434e58066f20ac0cceef0f753cda06
 
 # Android #
 ############
@@ -47,17 +35,11 @@ local.properties
 *.log
 *.lot
 *.out
-<<<<<<< HEAD
-*.ps
-*.tex~
-*.toc
-=======
 *.pdf
 *.ps
 *.tex~
 *.toc
 *_minted*
->>>>>>> 6eb5a772f2434e58066f20ac0cceef0f753cda06
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 ######################
@@ -73,10 +55,7 @@ local.properties
 *.fdb_latexmk
 *.synctex.gz
 *.pdfsync
-<<<<<<< HEAD
-=======
 *.synctex.gz(busy)
->>>>>>> 6eb5a772f2434e58066f20ac0cceef0f753cda06
 
 # algorithms
 ######################
@@ -141,11 +120,6 @@ local.properties
 
 # Vim #
 ######################
-<<<<<<< HEAD
-*.swp
-*.swo
-*.project.vim
-=======
 *.project.vim
 [._]*.s[a-w][a-z]
 [._]s[a-w][a-z]
@@ -153,15 +127,12 @@ local.properties
 Session.vim
 .netrwhist
 *~
->>>>>>> 6eb5a772f2434e58066f20ac0cceef0f753cda06
 
 # Java #
 ######################
 *.ear
 *.jar
 *.war
-<<<<<<< HEAD
-=======
 *.ant_targets
 
 # Gradle #
@@ -231,28 +202,18 @@ share/
 lib64
 pip-selfcheck.json
 pyvenv.cfg
->>>>>>> 6eb5a772f2434e58066f20ac0cceef0f753cda06
 
 # R #
 ######################
 *-Ex.R
-<<<<<<< HEAD
-*.Rdata
-*.Rhistory
-=======
 *.RData
 *.Rdata
 *.Rhistory
 *.Rincr_history
->>>>>>> 6eb5a772f2434e58066f20ac0cceef0f753cda06
 
 # CTags #
 ######################
 tags
-<<<<<<< HEAD
-
-*~
-=======
 .tags
 tags.lock
 tags.temp
@@ -263,4 +224,3 @@ tags.tmp
 *.xmi
 *.sync
 *.jekyll-metadata
->>>>>>> 6eb5a772f2434e58066f20ac0cceef0f753cda06
