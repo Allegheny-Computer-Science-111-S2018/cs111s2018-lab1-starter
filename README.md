@@ -20,7 +20,6 @@ PROFESSOR PROBLEMS?
 
 -->
 
-
 # cs111s2018-lab1
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this

@@ -3,6 +3,7 @@
 *.class
 *.o
 *.so
+*.DS_Store
 
 # Android #
 ############
