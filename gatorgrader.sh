@@ -124,21 +124,21 @@ if [ "$CHECK" = true ]; then
   printf "%s\n" "${blu}...Finished running the Gradle checks${end}"
 
   # run all of the writing checks with mdl and proselint
-  echo ""
-  printf "%s\n" "${red}Checking the writing with mdl and proselint!${end}"
-  echo ""
-  printf "%s\n" "${blu}Starting to run the mdl and proselint checks...${end}"
-  echo ""
-  mdl README.md
-  determine_exit_code $? "mdl README.md"
-  mdl writing/reflection.md
-  determine_exit_code $? "mdl reflection.md"
-  proselint README.md
-  determine_exit_code $? "proselint README.md"
-  proselint writing/reflection.md
-  determine_exit_code $? "proselint reflection.md"
-  echo ""
-  printf "%s\n" "${blu}...Finished checking the writing with mdl and proselint${end}"
+  #echo ""
+  #printf "%s\n" "${red}Checking the writing with mdl and proselint!${end}"
+  #echo ""
+  #printf "%s\n" "${blu}Starting to run the mdl and proselint checks...${end}"
+  #echo ""
+  #mdl README.md
+  #determine_exit_code $? "mdl README.md"
+  #mdl writing/reflection.md
+  #determine_exit_code $? "mdl reflection.md"
+  #proselint README.md
+  #determine_exit_code $? "proselint README.md"
+  #proselint writing/reflection.md
+  #determine_exit_code $? "proselint reflection.md"
+  #echo ""
+  #printf "%s\n" "${blu}...Finished checking the writing with mdl and proselint${end}"
 
   # run all of the checks with GatorGrader
   echo ""
@@ -179,11 +179,12 @@ if [ "$CHECK" = true ]; then
                                      --checkfiles DisplayOutput.java --fragments "println(" --fragmentcounts 4
   determine_exit_code $?
   # --> GatorGrader CHECK: running the program produces exactly 4 lines of output
-  python3 gatorgrader/gatorgrader.py --nowelcome --commands "gradle run" --outputlines 4 --languages Java
+  python3 gatorgrader/gatorgrader.py --nowelcome --commands "gradle -q --console plain run" --outputlines 4
   determine_exit_code $?
+  
   # --> GatorGrader CHECK: the reflection contains at least 2 paragraphs
-  python3 gatorgrader/gatorgrader.py --nowelcome --directories writing --checkfiles reflection.md --paragraphs 2
-  determine_exit_code $?
+  #python3 gatorgrader/gatorgrader.py --nowelcome --directories writing --checkfiles reflection.md --paragraphs 2
+  #determine_exit_code $?
   echo ""
   printf "%s\n" "${blu}... Finished checking with GatorGrader${end}"
 
