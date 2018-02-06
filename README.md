@@ -69,9 +69,6 @@ of your assignment, checking to see if it meets all of the requirements. If
 your source code meet all of the established requirements, then you
 will see a green &#x2714; in the listing of commits in GitHub. If your
 submission does not meet the requirements, a red &#x2717; will appear instead.
-The instructor will reduce a programmer's grade for this assignment if the red
-&#x2717; appears on the last commit in GitHub immediately before the
-assignment's due date.
 
 Available for download at the course website [course
 website](http://www.cs.allegheny.edu/sites/jjumadinova/teaching/111/labs.html),
